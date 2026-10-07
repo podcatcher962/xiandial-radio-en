@@ -2,6 +2,12 @@
 
 > English firmware repository → [README.md](README.md)
 
+> **Disclaimer:** this is a personal open-source project, provided with **no
+> warranty of any kind** — see [README.md → Disclaimer](README.md#disclaimer).
+> Flashing overwrites whatever was already on the chip; station addresses are
+> not distributed with this firmware, and whatever you add is your own
+> responsibility.
+
 ## Hardware requirements
 
 | Item | Spec |
@@ -218,5 +224,9 @@ esptool --chip esp32s3 merge-bin --format raw -o XianDial-EN-v1.51-merged.bin \
 ```
 
 ---
+
+No warranty of any kind is given for this firmware. The full disclaimer —
+what the author does not promise, what is your responsibility, and the limits
+of liability — is in [README.md → Disclaimer](README.md#disclaimer).
 
 © Lanlan Eternal
