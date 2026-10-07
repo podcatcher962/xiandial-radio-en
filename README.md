@@ -335,6 +335,40 @@ If you add UI text to the Chinese build, add it to `_xf_fw_en_text.py`; the gene
 
 ---
 
+## Disclaimer
+
+**Please read this before you flash anything.**
+
+### What you are using
+
+This is the firmware for a **personal open-source hardware project**. The author was building one internet radio for himself and tidied the code into a public repository. It is **not a commercial product**, and it has had **no commercial certification, no stress testing, and no long-term maintenance**.
+
+### What the author does not promise
+
+- **That your stations will play.** Whether a station works depends on the source itself — container format, whether the server accepts your client at all, certificate validity, and whether the bitrate is one the device can sustain. This firmware handles the mainstream formats only. This build ships **zero** stations, so there is not a single address here that is known to work.
+- **Stability.** There is no OTA; upgrading means reflashing. It has been verified on **the author's own unit only** — your board revision, display, touch controller and TF card may all differ.
+- **That it is free of bugs.** It is a one-person project with no test team.
+
+### What is your responsibility
+
+- **Flashing overwrites whatever was already on the chip.** Make sure you know what you are erasing.
+- **Station addresses belong to whoever publishes them.** This repository **ships no station addresses at all** (built-in count: 0). Any M3U, station list or stream URL you obtain from anywhere is yours to judge for legality — the author is not responsible for what you do with it.
+- **Obey the law where you are, and the copyright rules covering the audio you stream.**
+- **Your own data is your own responsibility.** The firmware reports nothing about you, but the traffic levels and the IP address involved are yours.
+
+### Limits of the author's liability
+
+- The source is open and **MIT-licensed, with no warranty of any kind** — see `LICENSE`.
+  ※ The MIT text requires the copyright notice to be kept: if you fork or redistribute this, retain the attribution at the bottom of this file.
+- Fonts are under their respective OFL-1.1 licences (`OFL-1.1-*.txt`).
+- **The author accepts no liability for any direct or indirect loss arising from the use of this firmware.**
+
+### The one-sentence version
+
+> This is a **reference implementation of a complete workflow**, not a product that is guaranteed to work. It shows you how an internet radio can be put together; the rest of the road is yours.
+
+---
+
 ## License and credits
 
 **Firmware source:** see [LICENSE](LICENSE).
